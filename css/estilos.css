@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Estilos Generales */
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+footer{
+    text-align: center;
+    padding: 1%;
+}
+body{
+    background: linear-gradient(#FAF178, #B400FF, #FAF178);
+}
+section{
+    margin: 5% 0;
+    padding: 2% 0;
+}
+section[id]{
+    scroll-margin-top: 70px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Estilos del Menu */
+#menu{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+}
+#menu ul{
+    margin: 1% 0;
+    padding: 0;
+    list-style: none;
+    width: 550px;
+    float: right;
+}
+#menu ul li{
+    margin: 0 1%;
+    float: left;
+}
+#menu ul li a{
+    display: block;
+    width: 100px;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: solid 2px;
+}
+/* Estilos de los Articulos */
+.titulo{
+    text-align: center;
+}
+.text1{
+    overflow: hidden;
+    display: flexbox;
+    padding: 2% 0;
+}
+.text1 p{
+    float: left;
+    text-align: justify;
+    padding: 6%;
+    width: 35%;
+}
+.text1 img{
+    float: right;
+    width: 50%;
+    max-height: 600px;
+}
+.text2{
+    overflow: hidden;
+    display: flexbox;
+    padding: 2% 0;
+}
+.text2 p{
+    float: right;
+    text-align: justify;
+    padding: 6%;
+    width: 35%;
+}
+.text2 img{
+    float: left;
+    width: 50%;
+    max-height: 600px;
+}
+/* Estilos de los Videos */
+.videos article{
+    display: flex;
+    padding: 2% 0;
+}
+.videos article iframe{
+    width: 50%;
+    min-height: 300px;
+    margin: 0 1%;
+}
+#inicio iframe{
+    width: 100%;
+    min-height: 830px;
+}
+/*Responsive*/
+@media screen and (max-width: 1000px) {
+    #inicio iframe{
+        width: 100%;
+        min-height: 500px;
+    }
+    .text1{
+        display: block;
+        padding: 2% 0;
+        margin: 2%;
+    }
+    .text1 p{
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .text1 img{
+        float: none;
+        width: 100%;
+    }
+    .text2{
+        display: block;
+        padding: 2% 0;
+        margin: 2%;
+    }
+    .text2 p{
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .text2 img{
+        float: none;
+        width: 100%;
+    }
+    .videos{
+        margin: 2%;
+    }
+    .videos article{
+        display: block;
+        padding: 0;
+    }
+    .videos article iframe{
+        width: 100%;
+        min-height: 350px;
+        margin: 1% 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .videos article iframe{
+        width: 100%;
+        min-height: 250px;
+        margin: 1% 0;
+    }
+}
