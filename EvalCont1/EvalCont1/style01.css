@@ -1,0 +1,49 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dado {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    background-color: #ddc67b;
+    margin: 0;
+}
+
+h1{
+    margin: 30px;
+    font-family: "Roboto";
+    text-shadow: 5px 0 #443c68;
+    font-size: 4.5rem;
+    color: #8aa2a9;
+    text-align: center;
+}
+
+p{
+    font-size: 2rem;
+    color: #8aa2a9;
+    font-family: "Roboto";
+}
+
+img{
+    width: 30%;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.butn {
+    background: #443c68;
+    font-family: "Roboto";
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
